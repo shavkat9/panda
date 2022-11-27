@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+<body>
+    <!-- // <------------users-----------> 
+    <ul class="users">
+    </ul>
+
+    <template class="users__template">
+        <li class="users__item">
+            <h3 class="users__item-title"></h3>
+            <p class="users__item-description"></p>
+            <strong class="users__item-company"></strong>
+            <span class="users__item-email"></span>
+        </li>
+    </template>
+
+    <!-- // <------------/users----------->
+
+
+    <!-- // <---------------comments------------->
+    <ul class="comments"></ul>
+    
+    <template class="comments__template">
+        <li class="comments__item">
+            <h3 class="comments__item-postId"></h3>
+            <p class="comments__item-id"></p>
+            <strong class="comments__name"></strong>
+            <span class="comments__item-email"></span>
+            <p class="comments__item-body"></p>
+        </li>
+    </template>
+
+    <!-- // <---------------comments------------->
+
+    <!-- // <---------------posts---------------->
+
+    <ul class="posts">
+    </ul>
+
+    <template class="posts__template">
+        <li class="posts__item">
+            <h3 class="posts__item-userId"></h3>
+            <p class="posts__item-id"></p>
+            <strong class="posts__item-title"></strong>
+            <span class="posts__item-body"></span>
+        </li>
+    </template>
+    <!-- // <---------------/posts--------------->
+
+
+ <!-- // <---------------panda------------------->
+ <ul class="pandas">
+</ul>
+ 
+    <div class="output"></div>
+    <button id="getPandas">get panda</button>
+ 
+    
+
+ <!-- // <---------------/panda------------------->
+ <ul class="albums">
+</ul>
+
+<template class="albums__template">
+    <li class="albums__item">
+        <h3 class="albums__item-userId"></h3>
+        <p class="albums__item-id"></p>
+        <strong class="albums__item-title"></strong>
+    </li>
+</template>
+
+    <script src="./users.js"></script>
+</body>
+</html>
